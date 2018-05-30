@@ -5,6 +5,9 @@
     font-family: bebas;
     
 }
+
+
+
 @font-face {
     font-family:bebas;
     src:url(../font/BebasNeue-Regular.otf);
@@ -13,6 +16,7 @@
     font-family:museo;
     src:url(../font/MuseoSans_500.otf);
 }
+
 
 
 #hero {
@@ -90,12 +94,10 @@
 }
 
 #works h4{
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     
 }
-
-
 
 #footer {
     background-color: #2c2c2c;
@@ -128,33 +130,6 @@
     letter-spacing: 10px;
     font-family: museo;
 }
-
-#footer button{
-    background-color: #b4b4b4;
-    font-size: 30px;
-    letter-spacing: 10px;
-    color:black;
-}
-
-#f-email {
-    font-size: 16px;
-    letter-spacing: 10px;
-    font-family: museo;
-}
-
-
-
-#hover div:hover {
-    background-color: rgba(0,0,0,0.5);
-   
-   
-}
-
-
-
-
-
-
 
 #bryan {
     margin-top: 400px;

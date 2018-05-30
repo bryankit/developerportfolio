@@ -7,70 +7,65 @@
 
     <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   <!-- style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
     <title>MyPortfolio</title>
   </head>
   <body>
 
+
+
+
    <header class="container-fluid img-fluid" id="hero">
-   
-   <nav class="navbar  align-center navbar-white">
-          <a class="navbar-brand text-white" href="#" id="bk">BK</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span><img class="mr-2" id="toggle" src="assets/images/toggle.png" alt="toggle"></span>
-          </button>
-          <div class="collapse navbar-collapse pt-5" id="navbarNav">
-            <ul class="navbar-nav text-center mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link display-4" href="#">Home <span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light display-4" href="#profile">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light display-4" href="#works">works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light display-4" href="#footer">get in touch</a>
-              </li>
-            </ul>
-          </div>
-    </nav>
-<!--
-    <div class="col-md-3  col-sm-12 col-12 mx-auto" id="picture">
-          <img class="mx-auto img-fluid" src="assets/images/picture.png" alt="picture">
+       <nav class="navbar  align-center navbar-white">
+              <a class="navbar-brand text-white wow flip" href="#" id="bk">BK</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><img class="mr-2" id="toggle" src="assets/images/toggle.png" alt="toggle"></span>
+              </button>
+              <div class="collapse navbar-collapse pt-5" id="navbarNav">
+                <ul class="navbar-nav text-center mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link display-4" href="#">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light display-4" href="#profile">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light display-4" href="#works">works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light display-4" href="#footer">get in touch</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center col-12 offset-1 mx-auto" id="bryan"> 
+              <h1 class="mr-4 text-center wow fadeInDown">bryan kit batac</h1>
+              <h2 class="text-center mb-5 wow fadeInDownBig">full stack developer</h2>
+            </div>     
         </div>
--->
-   
-    <div class="row">
-      
-       
-        <div class="col-md-6 col-sm-12 text-center col-12 offset-1 mx-auto" id="bryan">
-         
-          <h1 class="mr-4 text-center">bryan kit batac</h1>
-          <h2 class="text-center mb-5">full stack developer</h2>
-        </div>
-        
-        
-    </div>
     </header>
     
-    <section id="profile">
+    <section class="container-fluid" id="profile">
        <div class="row">
            <div class="col-md-4 offset-md-4">
-               <h3 class="mb-4">profile</h3>
+               <h3 class="mb-4 wow zoomIn">profile</h3>
            </div>
        </div>
        <div class="row">
-           <div class="col-md-2 col-sm-12 offset-md-1 mb-4">
-               <h4 class="mb-4">SKILLS</h4>
+           <div class="col-md-2 col-sm-12 offset-md-1 mb-4 wow bounceInLeft ">
+               <h4 class="mb-4 ">SKILLS</h4>
                <p>HTML 5</p>
                <p>CSS</p>
                <p>Javasript</p>
            </div>
-           <div class="col-md-2 offset-md-2 mb-4">
+           <div class="col-md-2 offset-md-2 mb-4 wow zoomIn">
                <h4 class="mb-4">TOOLS</h4>
                <p>Github</p>
                <p>Gitlab</p>
@@ -79,24 +74,25 @@
                <p>Adobe Photoshop</p>
                <p>Adobe Illustrator</p>
            </div>
-           <div class="col-md-5 mb-4">
+           <div class="col-md-5 mb-4 wow bounceInRight">
                <h4 class="mb-4">FRAMEWORKS</h4>
                <p>Bootstrap 4</p>  
            </div>
        </div>
     </section>
-    
+
+
     <section class="container-fluid" id="works">
       <div class="row">
-          <div class="col-md-4 offset-md-4">
-              <h3 class="my-4">WORKS</h3>
+          <div class="col-md-4  offset-md-4">
+              <h3 class="my-4 wow zoomIn">WORKS</h3>
           </div>
       </div>
        <div class="row">
-            <div class="col-md-3 col-12 offset-4 offset-md-1 mx-auto mb-5">
-                <div class="card bg-dark mx-auto" id="gym">
+            <div class="col-md-3 col-lg-4 col-12 offset-4 offset-md-1 mx-auto mb-5 ">
+                <div class="card bg-dark mx-auto">
                      <a href="#" id="hover">
-                          <img class="card-img" src="assets/images/gym.jpg" alt="GYM" >
+                          <img class="card-img " src="assets/images/gym.jpg" alt="GYM" >
                           <div class="card-img-overlay" id="hover">
                             <h4 class="card-title img-fluid mt-5">GYM</h4>
                           </div>
@@ -104,39 +100,38 @@
                 </div>
             </div>
             
-            <div class="col-md-3 col-12 offset-4  mx-auto mb-5">
-                <div class="card bg-dark mx-auto" id="gym">
+            <div class="col-md-3 col-lg-4 col-12 offset-4  mx-auto mb-5">
+                <div class="card bg-dark mx-auto" >
                      <a href="#" id="hover">
-                          <img class="card-img" src="assets/images/games.jpg" alt="games" >
+                          <img class="card-img " src="assets/images/games.jpg" alt="games" >
                           <div class="card-img-overlay" >
                             <h4 class="card-title img-fluid mt-5">GAMES</h4>
                           </div>
                       </a>
                 </div>
             </div>
-           <div class="col-md-3 col-12  mx-auto mb-5">
-                <div class="card bg-dark mx-auto" id="gym">
+           <div class="col-md-3  col-lg-4 col-12  mx-auto mb-5">
+                <div class="card bg-dark mx-auto" >
                      <a href="#" id="hover">
-                          <img class="card-img" src="assets/images/coffee.jpg" alt="coffee" >
+                          <img class="card-img " src="assets/images/coffee.jpg" alt="coffee" >
                           <div class="card-img-overlay" id="hover">
                             <h4 class="card-title img-fluid mt-5">COFFEE</h4>
                           </div>
                       </a>
                 </div>
             </div>
-           
         </div>
     </section>
     
-    <footer id="footer">
+    <footer  class="container-fluid" id="footer">
         <div class="row">
             <div class="col-md-4 offset-md-4">
-                <h3 class="my-4">GET IN TOUCH</h3>
+                <h3 class="my-4 wow zoomIn">GET IN TOUCH</h3>
             </div>
         </div>
         <div class="row my-4">
             <div class="col-md-4 offset-md-1">
-               <form class="mx-5">
+               <form class="px-5">
                   <div class="form-group">
                     <input  type="text" class="form-control p-1" id="name">
                     <label class="col-form-label" for="name">Name</label>
@@ -163,66 +158,60 @@
             </div>
         </div>
         <div class="row">
-           <div class="col-md-1 offset-md-9 pl-5 text-center">
-               <button class="btn btn-light px-4 py-2 " type="submit">SEND</button>
+           <div class="col-md-1  offset-md-9  text-center">
+               <button class="btn btn-light px-4 py-2 wow fadeIn" type="submit">SEND</button>
            </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-4 offset-md-1 mt-5">
-                <p class="text-center" id="f-email">BATACBRYANKIT@GMAIL.COM</p>
+        <div class="row mt-5 mb-3">
+            <div class="col-md-4 col-12 offset-md-1 mt-1">
+                <h2 class="text-center">BATACBRYANKIT@GMAIL.COM</h2>
             </div>
-            <div class="col-md-2 offset-md-4 mt-5 text-center">
-               <i>fb</i>
-               <i>gl</i>
-               <i>gh</i>
+            <div class="col-md-2 offset-md-4 mt-1 text-center">
+               <a href="#" class="text-white"><i class="fab fa-facebook-square"></i></a>
+               <a href="#" class="text-white"><i class="fab fa-gitlab"></i></a>
+               <a href="#" class="text-white"><i class="fab fa-github"></i></a>
             </div>
         </div>
-        
     </footer>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!-- wow js -->
+<script src="assets/js/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+<!-- smooth anchor -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
   </body>
 </html>

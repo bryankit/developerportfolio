@@ -5,14 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  
+    <link rel="shortcut icon" href="/favicon.ico">
     <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
    <!-- style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+    <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- hover effects -->
+    <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
 
     <title>MyPortfolio</title>
   </head>
@@ -23,23 +28,23 @@
 
    <header class="container-fluid img-fluid" id="hero">
        <nav class="navbar  align-center navbar-white">
-              <a class="navbar-brand text-white wow flip" href="#" id="bk">BK</a>
+              <a class="navbar-brand text-white wow flip hvr-wobble-horizontal" href="#" id="bk">BK</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span><img class="mr-2" id="toggle" src="assets/images/toggle.png" alt="toggle"></span>
+                <span><img class="mr-2 hvr-wobble-horizontal" id="toggle" src="assets/images/toggle.png" alt="toggle"></span>
               </button>
               <div class="collapse navbar-collapse pt-5" id="navbarNav">
                 <ul class="navbar-nav text-center mx-auto">
                   <li class="nav-item active">
-                    <a class="nav-link display-4" href="#">Home <span class="sr-only"></span></a>
+                    <a class="nav-link display-4 text-light hvr-pulse" href="#">Home <span class="sr-only"></span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light display-4" href="#profile">Profile</a>
+                    <a class="nav-link text-light display-4 hvr-pulse" href="#profile">Profile</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light display-4" href="#works">works</a>
+                    <a class="nav-link text-light display-4 hvr-pulse" href="#works">works</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light display-4" href="#footer">get in touch</a>
+                    <a class="nav-link text-light display-4 hvr-pulse" href="#footer">get in touch</a>
                   </li>
                 </ul>
               </div>
@@ -91,39 +96,48 @@
        <div class="row">
             <div class="col-md-3 col-lg-4 col-12 offset-4 offset-md-1 mx-auto mb-5 ">
                 <div class="card bg-dark mx-auto">
-                     <a href="#" id="hover">
-                          <img class="card-img " src="assets/images/gym.jpg" alt="GYM" >
-                          <div class="card-img-overlay" id="hover">
-                            <h4 class="card-title img-fluid mt-5">GYM</h4>
+                     <a href="#" class="hovereffect">
+                          <img class="card-img" src="assets/images/gym.jpg" alt="GYM" >
+                          <div class="card-img-overlay d-none d-lg-block">
+                            <h2 class="card-title  mt-5 p-5">GYM</h2>
                           </div>
                       </a>
+                      <div class="card-img-overlay d-xl-none d-flex flex-column-reverse">
+                            <h2 class="card-title   p-2 bg-dark">GYM</h2>
+                      </div>
                 </div>
             </div>
             
             <div class="col-md-3 col-lg-4 col-12 offset-4  mx-auto mb-5">
                 <div class="card bg-dark mx-auto" >
-                     <a href="#" id="hover">
+                     <a href="#" class="hovereffect">
                           <img class="card-img " src="assets/images/games.jpg" alt="games" >
-                          <div class="card-img-overlay" >
-                            <h4 class="card-title img-fluid mt-5">GAMES</h4>
+                          <div class="card-img-overlay d-none d-lg-block" >
+                            <h2 class="card-title img-fluid mt-5 p-5">GAMES</h2>
                           </div>
                       </a>
+                      <div class="card-img-overlay d-xl-none d-flex flex-column-reverse">
+                            <h2 class="card-title   p-2 bg-dark">GAMES</h2>
+                      </div>
                 </div>
             </div>
            <div class="col-md-3  col-lg-4 col-12  mx-auto mb-5">
                 <div class="card bg-dark mx-auto" >
-                     <a href="#" id="hover">
+                     <a href="#" class="hovereffect">
                           <img class="card-img " src="assets/images/coffee.jpg" alt="coffee" >
-                          <div class="card-img-overlay" id="hover">
-                            <h4 class="card-title img-fluid mt-5">COFFEE</h4>
+                          <div class="card-img-overlay d-none d-lg-block">
+                            <h2 class="card-title img-fluid mt-5 p-5">COFFEE</h2>
                           </div>
                       </a>
+                      <div class="card-img-overlay d-xl-none d-flex flex-column-reverse">
+                            <h2 class="card-title   p-2 bg-dark">COFFEE</h2>
+                      </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <footer  class="container-fluid" id="footer">
+    <footer  class="container-fluid pb-2" id="footer">
         <div class="row">
             <div class="col-md-4 offset-md-4">
                 <h3 class="my-4 wow zoomIn">GET IN TOUCH</h3>
@@ -159,28 +173,28 @@
         </div>
         <div class="row">
            <div class="col-md-1  offset-md-9  text-center">
-               <button class="btn btn-light px-4 py-2 wow fadeIn" type="submit">SEND</button>
+               <button class="btn btn-light px-5 py-2 wow fadeIn" type="submit">SEND</button>
            </div>
         </div>
         <div class="row mt-5 mb-3">
             <div class="col-md-4 col-12 offset-md-1 mt-1">
                 <h2 class="text-center">BATACBRYANKIT@GMAIL.COM</h2>
             </div>
-            <div class="col-md-2 offset-md-4 mt-1 text-center">
-               <a href="#" class="text-white"><i class="fab fa-facebook-square"></i></a>
-               <a href="#" class="text-white"><i class="fab fa-gitlab"></i></a>
-               <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+            <div class="col-md-4 offset-md-3 mt-1 text-center">
+               <a href="#" class="text-white mr-2 hvr-buzz-out"><i class="fab fa-facebook-square fa-2x"></i></a>
+               <a href="#" class="text-white mr-2 hvr-buzz-out"><i class="fab fa-gitlab fa-2x"></i></a>
+               <a href="#" class="text-white mr-2 hvr-buzz-out"><i class="fab fa-github fa-2x"></i></a>
             </div>
         </div>
     </footer>
 
 
 
-    <!-- Optional JavaScript -->
+       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <!-- wow js -->
 <script src="assets/js/wow.min.js"></script>
 <script>new WOW().init();</script>
